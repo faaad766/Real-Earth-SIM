@@ -10,7 +10,7 @@
   "lint": "tsgo -p tsconfig.check.json; npx biome lint; .rules/check.sh; npx tailwindcss -i ./src/index.css -o /dev/null 2>&1 | grep -E '^(CssSyntaxError|Error):.*' || true; .rules/testBuild.sh",
   "test-sprite": "node scripts/test-sprite.js",
   "generate:loop-md": "node scripts/generate-loop-md.js"
-}
+},
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-accordion": "^1.2.12",
