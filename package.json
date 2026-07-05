@@ -11,7 +11,6 @@
   "test-sprite": "node scripts/test-sprite.js",
   "generate:loop-md": "node scripts/generate-loop-md.js"
 }
-  },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-accordion": "^1.2.12",
